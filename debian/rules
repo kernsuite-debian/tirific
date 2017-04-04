@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_clean:
+	dh_clean
+	rm -rf qfits-6.2.0/main/.deps/
+	rm -rf qfits-6.2.0/saft/.deps/
+	rm -rf qfits-6.2.0/src/.deps/
+	rm -rf qfits-6.2.0/src/.libs/
+	rm -rf qfits-6.2.0/test/.deps/
