@@ -1,3 +1,9 @@
+tirific (2.3.9-1kern2) bionic; urgency=medium
+
+  * New upstream for bionic
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 29 May 2018 09:22:13 +0000
+
 tirific (2.3.9-1kern1) xenial; urgency=medium
 
   * New upstream 2.3.9
