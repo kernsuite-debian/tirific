@@ -2,8 +2,14 @@ Source: tirific
 Section: science
 Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0), wcslib-dev, libfftw3-dev, libgsl0-dev,
- libreadline-gplv2-dev, pgplot5, libx11-dev
+Build-Depends:
+ debhelper (>= 8.0.0),
+ giza-dev,
+ libfftw3-dev,
+ libgsl0-dev,
+ libreadline-gplv2-dev,
+ libx11-dev,
+ wcslib-dev
 Standards-Version: 3.9.4
 Homepage: http://gigjozsa.github.io/tirific/
 
