@@ -5,6 +5,12 @@ tirific (2.3.11-1kern1) bionic; urgency=medium
 
  -- KERN packaging <packaging@kernsuite.info>  Thu, 31 Oct 2019 16:13:12 +0200
 
+tirific (2.3.9-1kern3) bionic; urgency=medium
+
+  * Linking tirific against giza instead of pgplot5
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 18 Jun 2019 22:08:37 +0200
+
 tirific (2.3.9-1kern2) bionic; urgency=medium
 
   * New upstream for bionic
