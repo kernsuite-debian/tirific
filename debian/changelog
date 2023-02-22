@@ -1,3 +1,10 @@
+tirific (2.3.11-1kern3) focal; urgency=medium
+
+  [ Athanaseus Javas Ramaila]
+  * Update standards and debhelper
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 22 Feb 2023 13:06:57 +0000
+
 tirific (2.3.11-1kern2) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
