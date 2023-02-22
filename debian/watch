@@ -1,2 +1,4 @@
-version=3
-https://github.com/gigjozsa/tirific/releases /gigjozsa/tirific/archive/v|(\d[\.\d]+).tar.gz
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*@ARCHIVE_EXT@)%@PACKAGE@-$1%" \
+      https://github.com/gigjozsa/tirific/tags \
+      (?:.*?/)?v?@ANY_VERSION@@ARCHIVE_EXT@
