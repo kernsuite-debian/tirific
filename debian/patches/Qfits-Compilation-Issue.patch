@@ -1,0 +1,13 @@
+diff --git a/qfits-6.2.0/src/qfits_byteswap.c b/qfits-6.2.0/src/qfits_byteswap.c
+index 99b3bf9..003a263 100644
+--- a/qfits-6.2.0/src/qfits_byteswap.c
++++ b/qfits-6.2.0/src/qfits_byteswap.c
+@@ -64,7 +64,7 @@ unsigned short qfits_swap_bytes_16(unsigned short w)
+ {
+ #ifdef CPU_X86
+     __asm("xchgb %b0,%h0" :
+-            "=q" (w) :
++            "=Q" (w) :
+             "0" (w));
+     return w ;
+ #else
