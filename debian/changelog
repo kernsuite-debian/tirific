@@ -1,3 +1,10 @@
+tirific (2.3.11-1kern4) jammy; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Build for jammy
+
+ -- KERN packaging <packaging@kernsuite.info>  Sat, 17 Feb 2024 07:22:56 +0000
+
 tirific (2.3.11-1kern3) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila]

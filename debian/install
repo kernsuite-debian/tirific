@@ -1,1 +1,1 @@
-bin/tirific usr/bin
+bin/* usr/bin
