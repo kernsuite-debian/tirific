@@ -1,3 +1,10 @@
+tirific (2.3.11-1kern5) noble; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Build for noble
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 20 Mar 2026 15:56:12 +0100
+
 tirific (2.3.11-1kern4) jammy; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
